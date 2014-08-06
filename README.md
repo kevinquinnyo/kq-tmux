@@ -19,23 +19,28 @@ Installation
 ------------
 
 sudo apt-get install tmux
+
 sudo apt-get install nodejs
+
+```
 cd ~
 git clone git@github.com:kevinquinnyo/kq-tmux.git
 cd kq-tmux
+
 \# Now move my tmux.conf into $HOME where tmux looks for it:
 [[ -f ~/.tmux.conf ]] && mv ~/.tmux.conf ~/tmux-before-kq-tmux.bak
 mv .tmux.conf ~/.tmux.conf
 tmux source-file ~/.tmux.conf
 
 \# install spotify helper
-cd kq-tmux/spotify/
+cd spotify/
 npm install node-spotify-webhelper
 
 \# The remote api and imap functions are disabled until you set the appropriate values in ~/kq-tmux/config.json and set enabled to true.
 
 \# To see keybindings:
 tmux list-keys
+```
 
 Caveats
 -------
