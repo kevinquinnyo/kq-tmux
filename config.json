@@ -1,0 +1,27 @@
+{
+	"whmcs": {
+		"host": "example.com",
+		"user": "user",
+		"pass": "password",
+		"enabled": false
+	},
+	"uber": {
+		"host": "example.com",
+		"user": "user",
+		"pass": "password",
+		"queues": ["1", "27", "18"],
+		"enabled": false
+	},
+	"exchange": {
+		"host": "example.com",
+		"user": "firstname.lastname@example.com",
+		"pass": "password",
+		"enabled": false
+	},
+	"gmail": {
+		"host": "example.com",
+		"user": "user@gmail.com",
+		"pass": "password",
+		"enabled": false
+	}
+}
