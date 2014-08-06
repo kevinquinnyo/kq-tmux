@@ -10,11 +10,7 @@ if(!is_object($config) || !$config->uber->enabled)
 $url = "https://".$config->uber->host;
 $user = $config->uber->user;
 $pass = $config->uber->pass;
-
-$queues = array(
-        'Support' => '1',
-	// 'AnotherQueue' => '33' // add more queues to this array like that
-);
+$queues = $config->uber->queues;
 
 $api = new uber_api_client($url, $user, $pass);
 
