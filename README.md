@@ -3,6 +3,8 @@ kq-tmux
 
 My tmux config + scripts
 
+ ![My image](kevinquinnyo.github.com/kq-tmux.png)
+
 Required:
 
 nodejs
