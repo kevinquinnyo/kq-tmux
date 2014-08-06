@@ -18,11 +18,10 @@ The Ubersmith and WHMCS ticket pull is kind of specific to my job, but you can j
 Installation
 ------------
 
+```
 sudo apt-get install tmux
-
 sudo apt-get install nodejs
 
-```
 cd ~
 git clone git@github.com:kevinquinnyo/kq-tmux.git
 cd kq-tmux
