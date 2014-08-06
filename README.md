@@ -3,7 +3,7 @@ kq-tmux
 
 My tmux config + scripts
 
- ![My image](kevinquinnyo.github.com/kq-tmux.png)
+
 
 Required:
 
@@ -54,5 +54,5 @@ For the battery charge %, you may have to edit bat.sh to find the correct batter
 
 For the spotify current track listing, you may have to change the port for the spotify local http server in ~/kq-tmux/spotify/get-current-track.js .  Check netstat -tnlp with spotify running.
 
-
+It looks like  ![this](kevinquinnyo.github.com/kq-tmux.png)
 
